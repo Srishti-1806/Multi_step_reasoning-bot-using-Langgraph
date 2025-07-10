@@ -1,0 +1,10 @@
+python-dotenv
+txtai
+transformers
+torch
+langchain
+unstructured
+pymupdf
+langchain-community
+chromadb
+sentence-transformers
