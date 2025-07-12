@@ -304,3 +304,5 @@ graph = workflow.compile(checkpointer=checkpointer)
 
 input_data = {"question": HumanMessage(content="What is acne?")} ##<-- add your question here
 graph.invoke(input=input_data, config={"configurable": {"thread_id": 1}})
+
+__all__ = ["graph"]
